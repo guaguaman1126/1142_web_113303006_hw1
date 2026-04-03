@@ -55,15 +55,23 @@ export default function RootLayout({
             <div className="flex gap-2 justify-center mt-2 mb-3 ">
               {/* icons, links, images */}
 
-              <Link href="/about">
+              <Link
+                href="https://www.instagram.com/neil_1126_/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagram className="text-[#4D1718] text-2xl transition-transform duration-200 hover:scale-110" />
               </Link>
 
-              <Link href="/about">
+              <Link href="https://www.facebook.com/xu.you.ning.361027?locale=zh_TW"
+                target="_blank"
+                rel="noopener noreferrer">
                 <FaFacebook className="text-[#4D1718] text-2xl transition-transform duration-200 hover:scale-110" />
               </Link>
 
-              <Link href="/about">
+              <Link href="https://github.com/guaguaman1126"
+                target="_blank"
+                rel="noopener noreferrer">
                 <FaGithub className="text-[#4D1718] text-2xl transition-transform duration-200 hover:scale-110" />
               </Link>
 
@@ -84,17 +92,17 @@ export default function RootLayout({
             </Link>
 
             <Link href="/spacer" className="no-underline hover:no-underline block">
-            <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">湊個版面</div>
+              <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">徵友啟示</div>
             </Link>
 
             <Link href="/spacer" className="no-underline hover:no-underline block">
-            <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">湊個版面</div>
+              <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">徵友啟示</div>
             </Link>
 
             <Link href="/spacer" className="no-underline hover:no-underline block">
-            <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">湊個版面</div>
+              <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">徵友啟示</div>
             </Link>
-            
+
 
 
           </div>
