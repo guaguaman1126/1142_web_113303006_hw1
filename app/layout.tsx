@@ -99,7 +99,7 @@ export default function RootLayout({
               <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">徵友啟示</div>
             </Link>
 
-            <Link href="/spacer" className="no-underline hover:no-underline block">
+            <Link href="/test" className="no-underline hover:no-underline block">
               <div className="bg-[#e1d3b6] text-[#4D1718] text-center font-bold p-6 mt-2 rounded-md shadow-[0_6px_14px_rgba(0,0,0,0.12)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_18px_rgba(0,0,0,0.2)]">徵友啟示</div>
             </Link>
 

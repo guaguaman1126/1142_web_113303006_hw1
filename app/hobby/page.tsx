@@ -19,8 +19,8 @@ export default function Hobby() {
           <div className="flex gap-6">
             <div className="group relative h-80 w-[42%] shrink-0 overflow-hidden rounded-[24px]">
               <Image src="/hobbyWatching.jpg" alt="追劇" fill className="object-cover" />
-              <div className="absolute inset-0 flex items-end bg-black/0 p-4 transition-all duration-300 group-hover:bg-black/55">
-                <p className="text-lg font-bold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">教練，我想追新番</p>
+              <div className="pointer-events-none absolute inset-x-4 bottom-4 rounded-2xl bg-gradient-to-b from-black/70 to-black/35 p-4 text-white/95 opacity-0 backdrop-blur-[2px] transition-opacity duration-300 group-hover:opacity-100">
+                <p className="text-lg font-bold">教練，我想追新番</p>
               </div>
             </div>
             <div className="w-[58%] text-[#4D1718]">
@@ -40,8 +40,8 @@ export default function Hobby() {
             </div>
             <div className="group relative h-80 w-[42%] shrink-0 overflow-hidden rounded-[24px]">
               <Image src="/hobbyMusic.jpg" alt="聽音樂" fill className="object-cover" />
-              <div className="absolute inset-0 flex items-end bg-black/0 p-4 transition-all duration-300 group-hover:bg-black/55">
-                <p className="text-lg font-bold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">聽到耳朵懷雙胞胎</p>
+              <div className="pointer-events-none absolute inset-0 rounded-[24px] bg-linear-to-b from-[#f8edd8]/85 to-transparent opacity-0 -translate-y-full transition-all duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100 ">
+                <p className="text-lg font-bold">來聽音樂</p>
               </div>
             </div>
           </div>
@@ -51,8 +51,8 @@ export default function Hobby() {
           <div className="flex gap-6">
             <div className="group relative h-80 w-[42%] shrink-0 overflow-hidden rounded-[24px]">
               <Image src="/hobbyScrolling.gif" alt="活網抽象仔" fill className="object-cover" />
-              <div className="absolute inset-0 flex items-end bg-black/0 p-4 transition-all duration-300 group-hover:bg-black/55">
-                <p className="text-lg font-bold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">精神食糧</p>
+              <div className="pointer-events-none absolute inset-x-4 bottom-4 rounded-2xl bg-gradient-to-b from-black/70 to-black/35 p-4 text-white/95 opacity-0 backdrop-blur-[2px] transition-opacity duration-300 group-hover:opacity-100">
+                <p className="text-lg font-bold">精神食糧</p>
               </div>
             </div>
             <div className="w-[58%] text-[#4D1718]">
