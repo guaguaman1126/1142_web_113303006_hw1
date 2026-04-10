@@ -1,14 +1,19 @@
 "use client"
 import Image from "next/image"
+import MenuPC from "../../components/MenuPC";
+import Link from "next/link";
 
 export default function Hobby() {
   return (
-    <div className="min-h-screen bg-[#B12A22]  p-8 rounded-md" >
+    <div className="flex h-full w-full gap-7 ">
+      <div className="hidden sm:block h-full w-[25%]  ">
+        <MenuPC />
+      </div>
+
+      
 
 
-
-
-      <div className="space-y-8">
+      <div className="h-full overflow-scroll hide-scrollbar w-full bg-[#B12A22] p-4 sm:p-8 rounded-md space-y-8">
 
         <div className="rounded-t-[28px] rounded-b-[10px] bg-[#6a8576] px-6 py-5">
           <h1 className="text-4xl font-bold text-[#4D1718]">我的興趣</h1>
@@ -17,7 +22,7 @@ export default function Hobby() {
 
         <article className="rounded-[10px] bg-[#f8edd8] p-5">
           <div className="flex gap-6">
-            <div className="group relative h-80 w-[42%] shrink-0 overflow-hidden rounded-[24px]">
+            <div className="group relative h-80 w-[42%] shrink-0 rounded-[24px]">
               <Image src="/hobbyWatching.jpg" alt="追劇" fill className="object-cover" />
               <div className="pointer-events-none absolute inset-x-4 bottom-4 rounded-2xl bg-gradient-to-b from-black/70 to-black/35 p-4 text-white/95 opacity-0 backdrop-blur-[2px] transition-opacity duration-300 group-hover:opacity-100">
                 <p className="text-lg font-bold">教練，我想追新番</p>
@@ -40,8 +45,12 @@ export default function Hobby() {
             </div>
             <div className="group relative h-80 w-[42%] shrink-0 overflow-hidden rounded-[24px]">
               <Image src="/hobbyMusic.jpg" alt="聽音樂" fill className="object-cover" />
-              <div className="pointer-events-none absolute inset-0 rounded-[24px] bg-linear-to-b from-[#f8edd8]/85 to-transparent opacity-0 -translate-y-full transition-all duration-700 ease-in-out group-hover:translate-y-0 group-hover:opacity-100 ">
-                <p className="text-lg font-bold">來聽音樂</p>
+              <div className="pointer-events-none absolute inset-0 rounded-[24px] bg-gradient-to-b from-[#f8edd8]/85 to-transparent opacity-0 -translate-y-full transition-all duration-500 ease-in-out group-hover:translate-y-0 group-hover:opacity-100 backdrop-blur-[2px] "></div>
+              <div className="absolute inset-0 p-2 translate-y-full transition-all duration-500 ease-out group-hover:translate-y-0 flex flex-col items-center justify-center gap-2">
+                <Link href="https://music.youtube.com/watch?v=lYBUbBu4W08&si=G8f7szNJx-sxblwE" target="_blank" className="">
+                  <Image src="/hobbyCircle.png" alt="唱片機" width={200} height={200} className="mx-auto h-[80%] w-auto object-contain animate-[spin_6s_linear_infinite] hover:scale-110 transition-all" />
+                </Link>
+                <span className=" rounded-2xl bg-gradient-to-b from-black/70 to-black/35 p-4 text-center text-white/95 text-lg font-bold">點集唱片讓耳朵懷孕</span>
               </div>
             </div>
           </div>
